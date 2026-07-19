@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# MkDocs
+site/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
