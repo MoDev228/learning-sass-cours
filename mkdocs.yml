@@ -1,0 +1,217 @@
+site_name: Learning SASS
+site_description: Un cours complet sur SASS (SCSS), du niveau débutant au niveau avancé.
+site_author: Mohamed
+
+docs_dir: docs
+site_dir: site
+
+repo_name: MoDev228/learning-sass-cours
+repo_url: https://github.com/MoDev228/learning-sass-cours
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: fr
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.png
+
+  features:
+    - navigation.instant
+
+    - navigation.instant.progress
+
+    - navigation.tracking
+
+    - navigation.sections
+
+    - navigation.expand
+
+    - navigation.top
+
+    - navigation.footer
+
+    - toc.follow
+
+    - search.highlight
+
+    - search.suggest
+
+    - search.share
+
+    - content.code.copy
+
+    - content.code.annotate
+
+    - content.tabs.link
+
+    - content.tooltips
+
+    - header.autohide
+
+  palette:
+    - scheme: default
+      primary: pink
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+
+    - scheme: slate
+      primary: pink
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clair
+
+plugins:
+  - search
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MoDev228
+
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/
+
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/
+
+  generator: false
+
+copyright: |
+  © 2026 MoDev228 • Tous droits réservés
+
+markdown_extensions:
+  - admonition
+
+  - attr_list
+
+  - md_in_html
+
+  - tables
+
+  - def_list
+
+  - footnotes
+
+  - abbr
+
+  - toc:
+      permalink: true
+
+  - pymdownx.details
+
+  - pymdownx.superfences
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+  - pymdownx.inlinehilite
+
+  - pymdownx.snippets
+
+  - pymdownx.keys
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+
+nav:
+  - Accueil: index.md
+
+  - À propos: a-propos.md
+
+  - Roadmap: roadmap.md
+
+  - Introduction:
+      - Présentation du cours: niveau-01-introduction/chapitre-01-decouvrir-sass.md
+      - Installation: niveau-01-introduction/chapitre-02-installation.md
+      - Premier fichier SCSS: niveau-01-introduction/chapitre-03-premier-fichier.md
+
+  - Les cours:
+      - Niveau 1 - Introduction:
+          - Découvrir Sass: niveau-01-introduction/chapitre-01-decouvrir-sass.md
+          - Installation: niveau-01-introduction/chapitre-02-installation.md
+          - Premier fichier: niveau-01-introduction/chapitre-03-premier-fichier.md
+
+      - Niveau 2 - Les bases:
+          - Variables: niveau-02-bases/chapitre-04-variables.md
+          - Imbrication: niveau-02-bases/chapitre-05-imbrication.md
+          - Parent Selector (&): niveau-02-bases/chapitre-06-parent-selector.md
+          - Commentaires: niveau-02-bases/chapitre-07-commentaires.md
+
+      - Niveau 3 - Organisation:
+          - Partiels: niveau-03-organisation/chapitre-08-partiels.md
+          - "@use": niveau-03-organisation/chapitre-09-use.md
+          - "@forward": niveau-03-organisation/chapitre-10-forward.md
+          - Structure professionnelle: niveau-03-organisation/chapitre-11-structure-pro.md
+
+      - Niveau 4 - Mixins:
+          - Mixins: niveau-04-mixins/chapitre-12-mixins.md
+          - Fonctions: niveau-04-mixins/chapitre-13-fonctions.md
+          - Placeholders: niveau-04-mixins/chapitre-14-placeholders.md
+
+      - Niveau 5 - Structures de données:
+          - Listes: niveau-05-donnees/chapitre-15-listes.md
+          - Maps: niveau-05-donnees/chapitre-16-maps.md
+          - Boucles: niveau-05-donnees/chapitre-17-boucles.md
+
+      - Niveau 6 - Conditions:
+          - Conditions: niveau-06-conditions/chapitre-18-conditions.md
+
+      - Niveau 7 - Modules intégrés:
+          - Couleurs: niveau-07-modules/chapitre-19-couleurs.md
+          - Nombres: niveau-07-modules/chapitre-20-nombres.md
+          - Chaînes: niveau-07-modules/chapitre-21-chaines.md
+          - Listes: niveau-07-modules/chapitre-22-listes-module.md
+          - Maps: niveau-07-modules/chapitre-23-maps-module.md
+          - Sélecteurs: niveau-07-modules/chapitre-24-selecteurs.md
+          - Meta: niveau-07-modules/chapitre-25-meta-fonctions.md
+
+      - Niveau 8 - Architecture:
+          - Architecture 7-1: niveau-08-architecture/chapitre-26-architecture-7-1.md
+          - ITCSS: niveau-08-architecture/chapitre-27-architecture-itcss.md
+          - Design System: niveau-08-architecture/chapitre-28-design-system.md
+
+      - Niveau 9 - Responsive:
+          - Media Queries: niveau-09-responsive/chapitre-29-media-queries.md
+          - Container Queries: niveau-09-responsive/chapitre-30-container-queries.md
+          - Fluid Design: niveau-09-responsive/chapitre-31-fluid-design.md
+
+      - Niveau 10 - Animations:
+          - Animations: niveau-10-animations/chapitre-32-animations.md
+
+      - Niveau 11 - Optimisation:
+          - Optimisation: niveau-11-optimisation/chapitre-33-optimisation.md
+
+      - Niveau 12 - Bonnes pratiques:
+          - Bonnes pratiques: niveau-12-bonnes-pratiques/chapitre-34-bonnes-pratiques.md
+
+      - Niveau 13 - Sécurité & Qualité:
+          - Sécurité & Qualité: niveau-13-securite-qualite/chapitre-35-securite-qualite.md
+
+      - Niveau 14 - Projet final:
+          - Projet final: niveau-14-projet-final/chapitre-36-projet-final.md
+
+  - Exercices:
+      - Liste des exercices: exercices/liste-exercices.md
+
+  - Ressources:
+      - FAQ: faq.md
+      - Changelog: changelog.md
