@@ -22,36 +22,19 @@ theme:
   favicon: assets/images/favicon.png
 
   features:
-    - navigation.instant
-
-    - navigation.instant.progress
-
     - navigation.tracking
-
     - navigation.sections
-
     - navigation.expand
-
     - navigation.top
-
     - navigation.footer
-
     - toc.follow
-
     - search.highlight
-
     - search.suggest
-
     - search.share
-
     - content.code.copy
-
     - content.code.annotate
-
     - content.tabs.link
-
     - content.tooltips
-
     - header.autohide
 
   palette:
