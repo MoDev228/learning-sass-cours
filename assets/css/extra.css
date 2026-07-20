@@ -1,0 +1,16 @@
+:root {
+  --sass-color: #cf649a;
+}
+
+.md-typeset h1 {
+  color: var(--sass-color);
+}
+
+.md-typeset h2 {
+  border-bottom: 2px solid var(--sass-color);
+  padding-bottom: 0.3rem;
+}
+
+.md-typeset a {
+  color: var(--sass-color);
+}
